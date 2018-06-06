@@ -1,3 +1,3 @@
-# Abdelhakim Bachar Personal Resume
+# Abdelhakim Bachar
 
-> https://abachar.github.io/
+> Please visit : https://abachar.github.io/
