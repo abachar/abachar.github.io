@@ -1,4 +1,4 @@
 # Crafters
 
-- https://www.crafters.consulting /
+- https://www.crafters.consulting/
 - https://abachar.github.io/
