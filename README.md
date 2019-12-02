@@ -1,3 +1,5 @@
-# Abdelhakim Bachar
+# Crafters
 
-> Please visit : https://abachar.github.io/
+> Please visit :
+> - https://www.crafters.consulting /
+> - https://abachar.github.io/
