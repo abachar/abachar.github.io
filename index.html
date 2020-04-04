@@ -1,23 +1,128 @@
 <!DOCTYPE html>
-<html>
-<head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Abdelhakim Bachar</title>
-  <link href="assets/img/favicon.ico" rel=icon>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Hind:300,400,500,600,700" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" />
-  <link rel="stylesheet" href="assets/css/style.css" />
-</head>
-<body>
-  <div class="container">
-    <h1>Abdelhakim Bachar</h1>
-    <h2>TechLead Full-Stack Certifié Java / Craftsman / Speaker<h2/>
-  </div>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  <script src="js/scripts.js"></script>
-</body>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8" />
+        <title>Abdelhakim Bachar | Senior Technical Lead Full-Stack at Crafters</title>
+        <meta name="description" content="Senior Technical Lead Full-Stack at Crafters" />
+        <meta name="author" content="Abdelhakim Bachar" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap" />
+        <style>
+            * {
+                font-family: 'Lato', sans-serif;
+                font-size: 16px;
+                line-height: 1.5;
+                padding: 0;
+                margin: 0;
+            }
+
+            html, body, main {
+                width: 100vw;
+                height: 100vh;
+            }
+
+            .particles {
+                position: absolute;
+                background-color: #2779A7;
+                display: block;
+                top: 0;
+                left: 0;
+                z-index: 0;
+            }
+
+            main {
+                display: flex;
+                align-items: center;
+            }
+
+            article {
+                margin: 0 auto;
+                background-color: #fff;
+                padding: 2rem;
+                border-radius: 4px;
+                z-index: 1;
+            }
+
+            .me {
+                text-align: center;
+                margin-bottom: 1rem;
+            }
+
+            .me img {
+                border-radius: 50%;
+                margin: 0 auto;
+                border: 2px solid #aaabb8;
+                padding: 3px;
+            }
+
+            h1 {
+                font-size: 2rem;
+                margin-bottom: .5rem;
+            }
+
+            p {
+                text-align: center;
+            }
+
+            .job {
+                font-size: 1.2rem;
+            }
+
+            .company {
+                font-size: .8rem;
+            }
+
+            .links {
+                padding-top: 2rem;
+            }
+
+            .links a {
+                color: #aaabb8;
+                text-decoration: none;
+                margin: 0 .8rem;
+            }
+
+            .links a:hover {
+                color: #2779A7;
+            }
+
+            .links a i {
+                font-size: 1.5rem;
+            }
+        </style>
+    </head>
+    <body>
+        <main>
+            <article>
+                <div class="me">
+                    <img src="me.jpg" alt="Abdelhakim Bachar" />
+                </div>
+                <h1>Abdelhakim Bachar</h1>
+                <p class="job">Senior Technical Lead Full-Stack</p>
+                <p class="company">Self Employed at Crafters</p>
+
+                <p class="links">
+                    <a href="mailto:abachar@crafters.consulting"><i class="fas fa-at"></i></a>
+                    <a href="https://www.linkedin.com/in/abachar/"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="https://github.com/abachar"><i class="fab fa-github"></i></a>
+                    <a href="https://twitter.com/a_bachar"><i class="fab fa-twitter"></i></a>
+                </p>
+            </article>
+        </main>
+        <canvas class="particles"></canvas>
+
+        <script src="https://kit.fontawesome.com/f607fd3f11.js" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/particlesjs/2.2.3/particles.js" crossorigin="anonymous"></script>
+        <script>
+            window.onload = function() {
+                Particles.init({
+                    selector: '.particles',
+                    color: '#aaabb8',
+                    connectParticles: true,
+                    maxParticles: 150,
+                    speed: .8
+                });
+            }
+        </script>
+    </body>
 </html>
